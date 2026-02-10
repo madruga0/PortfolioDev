@@ -1,0 +1,46 @@
+.projects {
+    margin: auto;
+    max-width: 90%;
+    margin-top: 130px;
+
+    .featured-projects {
+        text-align: center;
+        margin-bottom: 56px;
+
+        .subtitle-h2 {
+            margin-bottom: 8px;
+        }
+    }
+
+    #grid-cards {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: auto;
+        gap: 24px;
+        width: 100%;
+
+
+        img {
+            border-radius: 8px;
+            width: 100%;
+            margin-bottom: 20px;
+            
+        }
+
+        figure {
+            background-color: var(--gray-400);
+            padding: 12px;
+            border-radius: 12px;
+            &:hover {
+                border: 1px solid var(--gray-300);
+                transition-delay: 0.01s;
+            }
+
+            .description {
+                margin-block: 8px;
+            }
+
+        }
+    }
+
+}

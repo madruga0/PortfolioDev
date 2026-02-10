@@ -16,32 +16,93 @@
 <body>
     <header class="intro">
         <section>
-            <img src="/images/comercialMadruga.jpeg" alt="" style="width: 88px; height: 88px; border-radius: 50%;">
-            <p class="subtitle" >Hello World! Meu nome é <span class="span-color" >Pedro Madruga</span> e sou</p>
-            <h1 class="title-lg" >Desenvolvedor Fullstack</h1>
-            <p class="description">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo
+            <div class="profile-container">
+                <img id="profile-photo" src="/images/comercialMadruga.jpeg" alt="Pedro Madruga profile photo">
+                <div class="badge-icon">
+                    <img src="./images/Code.png" alt="Dev icon">
+                </div>
+            </div>
+            <p class="subtitle">Hello World! Meu nome é <span class="span-color">Pedro Madruga</span> e sou</p>
+            <h1 class="title-lg">Desenvolvedor Fullstack</h1>
+            <p class="description">Transformo necessidades em aplicações reais, envolventes e funcionais. Desenvolvo
                 sistemas
                 através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios
                 complexos.</p>
+            <nav class="tech">
+                <ul>
+                    <li><img src="./images/tech/GitHub.svg" alt="Github icon" id="#github">Github</li>
+                    <li><img src="./images/tech/HTML.svg" alt="HTML icon">HTML</li>
+                    <li><img src="./images/tech/CSS.svg" alt="CSS icon">CSS</li>
+                    <li><img src="./images/tech/JavaScript.svg" alt="Javascript icon">Javascript</li>
+                    <li><img src="./images/tech/React.svg" alt="React icon">React</li>
+                    <li><img src="./images/tech/Node.js.svg" alt="Node.js icon">Node.js</li>
+                </ul>
+            </nav>
         </section>
-        <nav class="tech">
-            <ul>
-                <li class="imgCard"> <img src="./images/tech/GitHub.svg" alt="Github icon"> GitHub</li>
-                <li class="imgCard"> <img src="./images/tech/HTML.svg" alt="HTML icon"> HTML</li>
-                <li class="imgCard"> <img src="./images/tech/CSS.svg" alt="CSS icon"> CSS</li>
-                <li class="imgCard"> <img src="./images/tech/JavaScript.svg" alt="Javascript icon"> Javascript</li>
-                <li class="imgCard"> <img src="./images/tech/React.svg" alt="React icon"> React</li>
-                <li class="imgCard"> <img src="./images/tech/Node.js.svg" alt="Node.js icon"> Node.js</li>
-            </ul>
-        </nav>
         <img src="images/CaretDoubleDown.png" alt="">
     </header>
 
     <main class="projects">
-
+        <div class="featured-projects">
+            <p class="subtitle-h2">Meu trabalho</p>
+            <h2 class="title-md">Veja os projetos em destaque</h2>
+        </div>
+        <div id="grid-cards">
+            <figure>
+                <img src="./images/Thumbnail_Project-01.png" alt="Project 01">
+                <span class="title-sm">Travelgram</span>
+                <p class="description">Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+            </figure>
+            <figure>
+                <img src="./images/Thumbnail_Project-02.png" alt="Project 01">
+                <span class="title-sm">Tech News</span>
+                <p class="description">Homepage de um portal de notícias sobre a área de tecnologia</p>
+            </figure>
+            <figure>
+                <img src="./images/Thumbnail_Project-03.png" alt="Project 01">
+                <span class="title-sm">Página de receita</span>
+                <p class="description">Página com o passo a passo de uma receita para cupcakes</p>
+            </figure>
+            <figure>
+                <img src="./images/Thumbnail_Project-04.png" alt="Project 01">
+                <span class="title-sm">Zingen</span>
+                <p class="description">Landing Page completa e responsiva de um aplicativo de Karaokê</p>
+            </figure>
+            <figure>
+                <img src="./images/Thumbnail_Project-05.png" alt="Project 01">
+                <span class="title-sm">Refund</span>
+                <p class="description">Um sistema para pedido e acompanhamento de reembolso </p>
+            </figure>
+            <figure>
+                <img src="./images/Thumbnail_Project-06.png" alt="Project 01">
+                <span class="title-sm">Página de turismo</span>
+                <p class="description">Página com as principais informações para quem quer viajar para Busan</p>
+            </figure>
+        </div>
     </main>
 
-    <section class="services">
+    <section class="my-services">
+        <div class="featured-projects">
+            <p class="subtitle-h2">Meus serviços</p>
+            <h2 class="title-md">Como posso ajudar o seu negócio</h2>
+            <div class="my-services-cards">
+                <figure class="my-service-card">
+                    <img src="./images/devices/Devices.png" alt="Devices image">
+                    <span class="title-sm">Websites e Aplicativos</span>
+                    <p class="description">Desenvolvimento de interfaces</p>
+                </figure>
+                <figure class="my-service-card">
+                    <img src="./images/devices/HardDrives.png" alt="HarDrives image">
+                    <span class="title-sm">API e banco de dados</span>
+                    <p class="description">Criação de serviços do sistema</p>
+                </figure>
+                <figure class="my-service-card">
+                    <img src="./images/devices/Infinity.png" alt="Infinity image">
+                    <span class="title-sm">DevOps</span>
+                    <p class="description">Gestão e infraestrutura da aplicação</p>
+                </figure>
+            </div>
+        </div>
 
     </section>
 

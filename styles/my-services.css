@@ -1,0 +1,36 @@
+.my-services {
+    text-align: center;
+    background-color: var(--gray-600);
+    width: 100%;
+    padding-inline: 120px;
+    padding-block: 120px 88px;
+
+    margin-top: 144px;
+
+
+    .my-services-cards {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: auto;
+        margin-top: 56px;
+
+        gap: 24px;
+
+        figure {
+            width: 100%;
+            text-align: start;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            border: 2px solid var(--gray-500);
+            border-radius: 12px;
+            padding: 20px;
+
+            img {
+                margin-block: 20px;
+            }
+        }
+    }
+}
